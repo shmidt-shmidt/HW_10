@@ -1,0 +1,54 @@
+    1  ls -l
+    2  git push
+    3  rm ~/.bash_history
+    4  git push
+    5  git history
+    6  git --help
+    7  git log
+    8  git push
+    9  git config  --global user.name "Oleksandr Shmidt" 
+   10  git config  --global user.email "shmidt.sale@gmail.com
+
+"
+   11  git config  --global user.email "shmidt.sale@gmail.com"
+   12  git config --get user.name
+   13  git config --get user.email
+   14  git clone https://github.com/shmidt-shmidt/hw_10.git
+   15  rm ~/.bash_history
+   16  git status
+   17  cd hw_10
+   18  git status
+   19  touch text_ignore.txt
+   20  nano .gitignore
+   21  git status
+   22  git add .
+   23  git commit
+   24  git commit -m "add  text_ignore.txt to .gitignore"
+   25  git add .
+   26  git status
+   27  touch main_test.txt
+   28  git add .
+   29  git commit 
+   30  git status
+   31  git commit -m "add main_test.txt to main"
+   32  git add .
+   33  git status
+   34  git branch develop
+   35  git checkout develop
+   36  touch develop_test.txt
+   37  git add .
+   38  git commit -m "add develop_test.txt to develop"
+   39  git commit
+   40  nano develop_test.txt
+   41  nano develop_test.txt
+   42  git status
+   43  git add .
+   44  git commit 
+   45  git commit -m "add  nano develop_test.txt to develop_test.txt"
+   46  git add .
+   47  git status
+   48  git checkout main
+   49  git merge develop
+   50  git log
+   51  git status
+   52  history > command_list.csv
